@@ -67,10 +67,15 @@ text-decoration: underline;
 color:black;
 }
 .launch{
-    text-align:center;
+    text-align:center !important;
     background-color: #d6d6d6;
     color: black;
 }
 body{
     background-color: #749276;
 }
+.works{
+    font-weight: bold;
+    font-size: 20px;
+}
+
