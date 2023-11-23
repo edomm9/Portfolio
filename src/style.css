@@ -23,7 +23,7 @@ a{
   text-decoration: none;
 }
 .contact-button, .about-button {
-  background-color: #749276;
+  background-color: #8B9683;
   padding: 23px;
   border-radius: 4px;
   border: white solid 1px;
@@ -32,7 +32,7 @@ a{
   font-weight:bold;
 }
 .work-button {
-  background-color: #749276;
+  background-color: #8B9683;
   padding: 20px;
   border-radius: 4px;
   border: white solid 1px;
@@ -87,7 +87,7 @@ color:black;
     color: black;
 }
 body{
-    background-color: #749276;
+    background-color: #8B9683;
 }
 .works{
     font-weight: bold;
