@@ -6,15 +6,23 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
 }
-img{
+.myphoto, .yogaimg{
     width:500px;
+}
+.title{
+  font-size:26px;
 }
 p{
     text-align: center;
+    font-size:18px;
     color:black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.contact-button {
+a{
+  color:black;
+  text-decoration: none;
+}
+.contact-button, .about-button {
   background-color: #749276;
   padding: 23px;
   border-radius: 4px;
@@ -23,9 +31,9 @@ p{
   font-size:18px;
   font-weight:bold;
 }
-.about-button {
+.work-button {
   background-color: #749276;
-  padding: 23px;
+  padding: 20px;
   border-radius: 4px;
   border: white solid 1px;
   flex: 1;
@@ -33,7 +41,7 @@ p{
   font-weight:bold;
 }
 .contact-button:hover,
-.about-button:hover {
+.about-button:hover, .work-button:hover {
   background-color: #d6d6d6;
   cursor: pointer;
 }
@@ -43,6 +51,10 @@ p{
 }
 .name {
   font-size: 75px;
+  color: #1e261a;
+}
+.name2 {
+  font-size: 55px;
   color: #1e261a;
 }
 .greeting {
@@ -57,6 +69,9 @@ p{
 @media(max-width: 567px){
   .name{
     font-size:64px;
+  }
+  .name2{
+    font-size:45px;
   }
 
 }
@@ -78,4 +93,13 @@ body{
     font-weight: bold;
     font-size: 20px;
 }
+.sticky{
+  position:sticky;
+  position: -webkit-sticky;
+  top:0;}
+  #contact{
+    font-size:55px;
+    text-align:center;
+    
+  }
 
